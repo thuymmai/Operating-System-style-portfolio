@@ -10,7 +10,7 @@ const FONT_WEIGHTS = {
 const renderText = (text, className, baseWeight = 400) => {
     
     {/* this is an array
-        equivalent to text.split 
+        [...text] is equivalent to text.split 
         then map over each individual char
         and get an index for that character
         then we return a span element for each char*/}
@@ -69,8 +69,6 @@ const setupTextHover = (container, type) => {
         container.removeEventListener("mouseleave", handleMouseLeave);
     };
 };
-
-
 
 const Welcome = () => {
 
