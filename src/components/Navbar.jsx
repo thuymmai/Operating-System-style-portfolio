@@ -8,7 +8,8 @@ const Navbar = () => {
   return (
     <nav>
         <div>
-            {/* <img src="/images/logo.svg" alt="logo"/> */}
+            {/* icon from lucide react */}
+            <img src="/images/ghost.svg" alt="logo"/>
             <p className="font-bold">thuyOS</p>
 
             <ul>                
