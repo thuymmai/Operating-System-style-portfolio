@@ -27,7 +27,12 @@ const WindowWrapper = (Component, windowKey) => {
             const el = ref.current;
             if(!el) return;
 
-            Draggable.create(el, { onPress: () => focusWindow(windowKey)});
+            //call Draggable
+            const [instance] = Draggable.create(el, { onPress: () => focusWindow(windowKey)});
+
+            //with this, I'm not keeping track of all these different draggable windows
+            //only keep track of the one I already clicked on 
+            return () => instance.kill();
         }, []);
 
         useLayoutEffect(() => {
