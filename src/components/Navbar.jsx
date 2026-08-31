@@ -18,7 +18,7 @@ const Navbar = () => {
             <p className="font-bold">thuyOS</p>
 
             <ul>                
-                {/* type comes from constants/index.js/navLinks */}
+                {/* type comes from src/constants/index.js/navLinks */}
                 {navLinks.map(({ id, name, type }) => (
                     <li key={id} onClick={() => openWindow(type)}>
                         <p>{name}</p>
