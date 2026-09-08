@@ -13,7 +13,14 @@ const Finder = () => {
   const { activeLocation, setActiveLocation } = useLocationStore();
 
   const openItem = (item) => {
-    if(item.fileType === "pdf") return openWindow("resume");    
+    if(item.fileType === "pdf") return openWindow("resume");
+    if(item.kind === "folder") return setActiveLocation(item);
+    
+    // open up a new window
+    // an array of fig or url
+    // "&& item.href...": and if that item has an href, then return window.open and open that item in a blank page
+    // in my case, have an item (capstone project) opens in another deployed page to show employers
+    if(["fig", "url"].includes(item.fileType) && item.href) return window.open(item.href, "_blank");    
   };
 
   // take an array of items
