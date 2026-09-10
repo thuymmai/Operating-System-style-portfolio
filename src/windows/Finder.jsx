@@ -4,6 +4,7 @@ import { Search } from "lucide-react";
 import { locations } from "#constants/index";
 import useLocationStore from "#store/location";
 import { clsx } from "clsx";
+import useWindowStore from "#store/window";
 
 const Finder = () => {
 
@@ -20,7 +21,9 @@ const Finder = () => {
     // an array of fig or url
     // "&& item.href...": and if that item has an href, then return window.open and open that item in a blank page
     // in my case, have an item (capstone project) opens in another deployed page to show employers
-    if(["fig", "url"].includes(item.fileType) && item.href) return window.open(item.href, "_blank");    
+    if(["fig", "url"].includes(item.fileType) && item.href) return window.open(item.href, "_blank");
+    
+    openWindow(`${item.fileType}${item.kind}`, item);
   };
 
   // take an array of items
