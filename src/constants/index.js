@@ -136,7 +136,7 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/thuymmai",
   },
   {
     id: 2,
@@ -431,10 +431,10 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/adrian.jpg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
+        "Hey! I’m Thuy (Twee) 👋, a Computer Science enjoying working with data (?) and interactive websites that actually work well.",
+        "I specialize in SQL, Java, and React—and I love building _________.",
         "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Outside of dev work, you'll find me listening to music, sipping overpriced matcha, or impulse-buying keycap sets I absolutely convinced myself I needed 😅",
       ],
     },
   ],
@@ -459,6 +459,7 @@ const RESUME_LOCATION = {
   ],
 };
 
+// these "trash" takes place as a hero section of a website
 const TRASH_LOCATION = {
   id: 4,
   type: "trash",

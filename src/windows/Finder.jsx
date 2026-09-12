@@ -23,6 +23,8 @@ const Finder = () => {
     // in my case, have an item (capstone project) opens in another deployed page to show employers
     if(["fig", "url"].includes(item.fileType) && item.href) return window.open(item.href, "_blank");
     
+    // implement text viewer or image viewer
+    // user clicks on a text file or image file, then open up a new window with the file type and kind of that item
     openWindow(`${item.fileType}${item.kind}`, item);
   };
 
