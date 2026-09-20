@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/Operating-System-style-portfolio",
+  base: "/Operating-System-style-portfolio/",
   resolve: {
     alias: {
       "#components": resolve(
