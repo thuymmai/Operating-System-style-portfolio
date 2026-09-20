@@ -38,7 +38,8 @@ const Home = () => {
                 // open the handleOpenProjectFinder here and pass "project"
                 onClick={() => handleOpenProjectFinder(project)}
                 >
-                    <img src="/images/folder.png" alt={project.name}/>
+                    {/*/<img src="/images/folder.png" alt={project.name}/>*/}
+                    <img src={`${import.meta.env.Operating-System-style-portfolio}images/folder.png`} alt="folder"/>
 
                     {/* render p tag that will render the project's name */}
                     <p>{project.name}</p>
