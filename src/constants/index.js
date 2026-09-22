@@ -1,7 +1,9 @@
-{/* below is an array
+{
+  /* below is an array
     where inside of it, there is one
     object for each link
-    and it will contains an ID and then the name*/}
+    and it will contains an ID and then the name*/
+}
 const navLinks = [
   {
     id: 1,
@@ -82,8 +84,7 @@ const blogPosts = [
   {
     id: 1,
     date: "mm dd, yyyy",
-    title:
-      "Student Management System Fullstack Website Using Spring Boot",
+    title: "Student Management System Fullstack Website Using Spring Boot",
     image: "/images/blog1.png",
     link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
   },
