@@ -1,26 +1,29 @@
-import { defineConfig } from 'vite';
-import tailwindcss from '@tailwindcss/vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from "vite";
+import tailwindcss from "@tailwindcss/vite";
+import react from "@vitejs/plugin-react";
 import { resolve, dirname } from "path";
-import { fileURLToPath } from 'url';
+import { fileURLToPath } from "url";
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/Operating-System-style-portfolio/",
+  base: "/Operating-System-style-portfolio",
   resolve: {
     alias: {
       "#components": resolve(
-        dirname(fileURLToPath(import.meta.url)), 
-        "src/components"
+        dirname(fileURLToPath(import.meta.url)),
+        "src/components",
       ),
       "#constants": resolve(
-        dirname(fileURLToPath(import.meta.url)), 
-        "src/constants"
+        dirname(fileURLToPath(import.meta.url)),
+        "src/constants",
       ),
       "#store": resolve(dirname(fileURLToPath(import.meta.url)), "src/store"), //global data store of my application
       "#hoc": resolve(dirname(fileURLToPath(import.meta.url)), "src/hoc"), //higher order components
-      "#windows": resolve(dirname(fileURLToPath(import.meta.url)), "src/windows"),
+      "#windows": resolve(
+        dirname(fileURLToPath(import.meta.url)),
+        "src/windows",
+      ),
     },
   },
-})
+});
