@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav>
       <div>
         {/* icon from lucide react */}
-        <img src="public\images\ghost.svg" alt="logo" />
+        <img src="\images\ghost.svg" alt="logo" />
         <p className="font-bold">thuyOS</p>
 
         <ul>
