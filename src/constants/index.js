@@ -45,7 +45,7 @@ const dockApps = [
   {
     id: "finder",
     name: "Portfolio", // was "Finder"
-    icon: "finder.png",
+    icon: "kuromi.png",
     canOpen: true,
   },
   {
@@ -75,7 +75,7 @@ const dockApps = [
   {
     id: "trash",
     name: "Archive", // was "Trash"
-    icon: "trash.png",
+    icon: "bin-transparent.png",
     canOpen: false,
   },
 ];
