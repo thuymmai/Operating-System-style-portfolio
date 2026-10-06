@@ -57,7 +57,7 @@ const dockApps = [
   {
     id: "photos",
     name: "Gallery", // was "Photos"
-    icon: "photos.png",
+    icon: "spotify.png",
     canOpen: true,
   },
   {
@@ -69,7 +69,7 @@ const dockApps = [
   {
     id: "terminal",
     name: "Skills", // was "Terminal"
-    icon: "terminal.png",
+    icon: "Bunny.png",
     canOpen: true,
   },
   {
