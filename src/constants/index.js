@@ -144,21 +144,21 @@ const socials = [
     text: "Platform",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "",
   },
   {
     id: 3,
-    text: "Twitter/X",
+    text: "Pinterest",
     icon: "/icons/twitter.svg",
     bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    link: "https://pin.it/2CTYjQtWI",
   },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/victoria-mai-woods-847923186",
   },
 ];
 
@@ -231,7 +231,7 @@ const WORK_LOCATION = {
     {
       id: 5,
       name: "Student Management Website Application",
-      icon: "/images/folder.png",
+      icon: "images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
       windowPosition: "top-[5vh] left-5", // optional: Finder window position
@@ -284,7 +284,7 @@ const WORK_LOCATION = {
     {
       id: 6,
       name: "Hotel Management System - Database project",
-      icon: "/images/folder.png",
+      icon: "images/Folder.png",
       kind: "folder",
       position: "top-52 right-80",
       windowPosition: "top-[20vh] left-7",
@@ -337,7 +337,7 @@ const WORK_LOCATION = {
     {
       id: 7,
       name: "Diet Tracker using Java Swing UI or JavaFX",
-      icon: "/images/folder.png",
+      icon: "images/Folder.png",
       kind: "folder",
       position: "top-10 left-80",
       windowPosition: "top-[33vh] left-7",
