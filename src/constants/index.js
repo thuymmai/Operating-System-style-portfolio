@@ -29,7 +29,7 @@ const navIcons = [
   },
   {
     id: 2,
-    img: "/icons/search.svg",
+    img: "icons/search.svg",
   },
   {
     id: 3,
