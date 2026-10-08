@@ -239,7 +239,7 @@ const WORK_LOCATION = {
         {
           id: 1,
           name: "Nike Project.txt",
-          icon: "/images/txt.png",
+          icon: "images/login.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
@@ -252,8 +252,8 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "nike.com",
-          icon: "/images/safari.png",
+          name: "SMS",
+          icon: "images/safari.png",
           kind: "file",
           fileType: "url",
           href: "",
@@ -261,8 +261,8 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "nike.png",
-          icon: "/images/image.png",
+          name: "login.png",
+          icon: "images/login.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
@@ -271,7 +271,7 @@ const WORK_LOCATION = {
         {
           id: 5,
           name: "Design.fig",
-          icon: "/images/plain.png",
+          icon: "images/plain.png",
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
