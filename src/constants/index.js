@@ -63,7 +63,7 @@ const dockApps = [
   {
     id: "contact",
     name: "Contact", // or "Get in touch"
-    icon: "contact.png",
+    icon: "Notebook.png",
     canOpen: true,
   },
   {
