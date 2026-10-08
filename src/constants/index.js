@@ -86,21 +86,21 @@ const blogPosts = [
     date: "mm dd, yyyy",
     title: "Student Management System Fullstack Website Using Spring Boot",
     image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    link: "",
   },
   {
     id: 2,
     date: "mm dd, yyyy",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+    title: "Project 2",
     image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    link: "",
   },
   {
     id: 3,
     date: "mm dd, yyyy",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
+    title: "Project 3",
     image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    link: "",
   },
 ];
 
@@ -429,7 +429,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "txt",
       position: "top-60 left-5",
-      subtitle: "Meet the Developer Behind the Code",
+      subtitle: "Meet the developer behind the code",
       image: "/images/adrian.jpg",
       description: [
         "Hey! I’m Thuy (Twee) 👋, a Computer Science enjoying working with data (?) and interactive websites that actually work well.",
