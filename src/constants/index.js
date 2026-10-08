@@ -75,7 +75,7 @@ const dockApps = [
   {
     id: "trash",
     name: "Archive", // was "Trash"
-    icon: "bin-transparent.png",
+    icon: "Bin.png",
     canOpen: false,
   },
 ];
