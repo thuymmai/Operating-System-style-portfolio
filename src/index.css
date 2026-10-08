@@ -384,7 +384,8 @@ body {
         @apply absolute z-0 select-none flex items-center flex-col;
 
         img {
-          @apply group-hover:bg-gray-950/10 p-1 rounded-md;
+          @apply size-20 group-hover:bg-gray-950/10 p-1 rounded-md;
+          image-rendering: pixelated;
         }
 
         p {
