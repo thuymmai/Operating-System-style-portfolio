@@ -238,7 +238,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "Student Management Project.txt",
           icon: "images/login.png",
           kind: "file",
           fileType: "txt",
@@ -291,8 +291,8 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "project_name.txt.txt",
-          icon: "/images/txt.png",
+          name: "project_name.txt",
+          icon: "images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
@@ -305,8 +305,8 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
-          icon: "/images/safari.png",
+          name: "hotel_management_project",
+          icon: "images/safari.png",
           kind: "file",
           fileType: "url",
           href: "",
@@ -314,8 +314,8 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
-          icon: "/images/image.png",
+          name: "hotel_management.png",
+          icon: "images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
@@ -324,7 +324,7 @@ const WORK_LOCATION = {
         {
           id: 5,
           name: "Design.fig",
-          icon: "/images/plain.png",
+          icon: "images/plain.png",
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
@@ -344,8 +344,8 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "project_name.txt",
-          icon: "/images/txt.png",
+          name: "diet_tracker.txt",
+          icon: "images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
@@ -358,8 +358,8 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
-          icon: "/images/safari.png",
+          name: "diet_tracker.com",
+          icon: "images/safari.png",
           kind: "file",
           fileType: "url",
           href: "",
@@ -367,8 +367,8 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
-          icon: "/images/image.png",
+          name: "diet_tracker.png",
+          icon: "images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
@@ -377,7 +377,60 @@ const WORK_LOCATION = {
         {
           id: 5,
           name: "Design.fig",
-          icon: "/images/plain.png",
+          icon: "images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://google.com",
+          position: "top-60 right-20",
+        },
+      ],
+    },
+
+    // ▶ Project 4
+    {
+      id: 8,
+      name: "Pokemon System - SQL queries",
+      icon: "images/Folder.png",
+      kind: "folder",
+      position: "top-10 left-80",
+      windowPosition: "top-[33vh] left-7",
+      children: [
+        {
+          id: 1,
+          name: "pokemon_system.sql",
+          icon: "images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "Description.",
+            "Description.",
+            "Description.",
+            "Description.",
+          ],
+        },
+        {
+          id: 2,
+          name: "pokemon_system.com",
+          icon: "images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "pokemon_system.png",
+          icon: "images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/project-4.png",
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "images/plain.png",
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
