@@ -224,7 +224,7 @@ const WORK_LOCATION = {
   id: 1,
   type: "work",
   name: "Work",
-  icon: "/icons/work.svg",
+  icon: "icons/work.svg",
   kind: "folder",
   children: [
     // ▶ Project 1
@@ -445,7 +445,7 @@ const ABOUT_LOCATION = {
   id: 2,
   type: "about",
   name: "About me",
-  icon: "/icons/info.svg",
+  icon: "icons/info.svg",
   kind: "folder",
   children: [
     {
@@ -498,7 +498,7 @@ const RESUME_LOCATION = {
   id: 3,
   type: "resume",
   name: "Resume",
-  icon: "/icons/file.svg",
+  icon: "icons/file.svg",
   kind: "folder",
   children: [
     {
@@ -518,13 +518,13 @@ const TRASH_LOCATION = {
   id: 4,
   type: "trash",
   name: "Trash",
-  icon: "/icons/trash.svg",
+  icon: "icons/trash.svg",
   kind: "folder",
   children: [
     {
       id: 1,
       name: "trash1.png",
-      icon: "/images/image.png",
+      icon: "images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-10 left-10",
@@ -533,7 +533,7 @@ const TRASH_LOCATION = {
     {
       id: 2,
       name: "trash2.png",
-      icon: "/images/image.png",
+      icon: "images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-40 left-80",
