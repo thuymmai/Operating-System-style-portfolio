@@ -392,8 +392,8 @@ const WORK_LOCATION = {
       name: "Pokemon System - SQL queries",
       icon: "images/Folder.png",
       kind: "folder",
-      position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
+      position: "top-52 left-80",
+      windowPosition: "top-[456px] left-7",
       children: [
         {
           id: 1,
