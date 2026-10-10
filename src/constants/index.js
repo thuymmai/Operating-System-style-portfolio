@@ -91,14 +91,21 @@ const blogPosts = [
   {
     id: 2,
     date: "mm dd, yyyy",
-    title: "Project 2",
+    title: "Hotel Management System - Database Project",
     image: "/images/blog2.png",
     link: "",
   },
   {
     id: 3,
     date: "mm dd, yyyy",
-    title: "Project 3",
+    title: "Diet Tracker Android Studio Application",
+    image: "/images/blog3.png",
+    link: "",
+  },
+  {
+    id: 4,
+    date: "mm dd, yyyy",
+    title: "Pokemon System - SQL Queries",
     image: "/images/blog3.png",
     link: "",
   },
@@ -126,8 +133,8 @@ const techStack = [
     items: ["MySQL"],
   },
   {
-    category: "Dev Tools",
-    items: ["TortoiseGit", "GitHub", "Docker"],
+    category: "Tools/Cloud",
+    items: ["TortoiseGit", "GitHub", "Docker", "AWS", "Postman"],
   },
 ];
 
@@ -144,12 +151,12 @@ const socials = [
     text: "Platform",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "",
+    link: "https://victoria-mai.com/",
   },
   {
     id: 3,
     text: "Pinterest",
-    icon: "/icons/twitter.svg",
+    icon: "/icons/icons8-pinterest.svg",
     bg: "#ff866b",
     link: "https://pin.it/2CTYjQtWI",
   },
