@@ -98,16 +98,16 @@ const blogPosts = [
   {
     id: 3,
     date: "mm dd, yyyy",
-    title: "Diet Tracker Android Studio Application",
+    title: "Diet Tracker Application - Android Studio",
     image: "/images/blog3.png",
-    link: "",
+    link: "https://github.com/thuymmai/Diet-Tracker-App",
   },
   {
     id: 4,
     date: "mm dd, yyyy",
     title: "Pokemon System - SQL Queries",
     image: "/images/blog3.png",
-    link: "",
+    link: "https://github.com/thuymmai/Pokemon-System",
   },
 ];
 
@@ -251,7 +251,7 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Description here...",
+            "The Student Management System project is built with Spring Boot, Thymealeft, and MySQL.",
             "Description.",
             "Description.",
             "Description.",
@@ -400,7 +400,7 @@ const WORK_LOCATION = {
       icon: "images/Folder.png",
       kind: "folder",
       position: "top-52 left-80",
-      windowPosition: "top-[456px] left-7",
+      windowPosition: "top-[49vh] left-7",
       children: [
         {
           id: 1,
@@ -462,7 +462,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/me.png",
     },
     {
       id: 2,
