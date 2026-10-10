@@ -14,7 +14,7 @@ const Navbar = () => {
       <div>
         {/* icon from lucide react */}
         <img src="images\ghost.svg" alt="logo" />
-        <p className="font-bold">vicOS</p>
+        <p className="font-bold">vicOS :)</p>
 
         <ul>
           {/* type comes from src/constants/index.js/navLinks */}
