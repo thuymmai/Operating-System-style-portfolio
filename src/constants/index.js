@@ -462,7 +462,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "images/me.png",
+      imageUrl: "/images/me.jpg",
     },
     {
       id: 2,
