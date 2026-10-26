@@ -304,8 +304,8 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "Description.",
-            "Description.",
+            "The project was a comprehensive hotel management system built with MySQL.",
+            "Goal was to normalize data in Third Normal Form.",
             "Description.",
             "Description.",
           ],
