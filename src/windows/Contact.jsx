@@ -18,7 +18,10 @@ const Contact = () => {
         />
 
         <h3>Let's Connect</h3>
-        <p>Maybe some description here?...</p>
+        <p>
+          Hello! I'm Thuy (Twee), a Computer Science student passionate about
+          data and web development.
+        </p>
         <p>thuymaiwood@gmail.com</p>
 
         <ul>

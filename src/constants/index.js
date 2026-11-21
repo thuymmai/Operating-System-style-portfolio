@@ -406,8 +406,7 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "A work in progress.SQL queries for the Pokemon system database.",
-            "Consists of Pokemon data Includes CREATE, INSERT, UPDATE, and DELETE statements.",
+            "A work in progress. Will use SQL queries for the Pokemon system database.",
             "Goal is to showcase proper normalization and indexing strategies and to demonstrate proficiency in SQL and database design.",
           ],
         },
