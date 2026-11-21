@@ -85,7 +85,7 @@ const blogPosts = [
     id: 1,
     date: "Aug 2026 - Nov 2026",
     title: "Student Management System Fullstack Website Using Spring Boot",
-    image: "/images/proj1.png",
+    image: "/images/studious-transparent.png",
     link: "https://studentmgt.com/login",
   },
   {
@@ -484,7 +484,7 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the developer behind the code",
-      image: "/images/figma.png",
+      image: "/images/myself.jpg",
       description: [
         "Hey! I’m Thuy (Twee) 👋, a Computer Science student enjoying working with data and interactive websites.",
         "Outside of dev work, you'll find me listening to music, sipping overpriced matcha, or impulse-buying keycap sets I think I needed 😅",
