@@ -490,7 +490,7 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the developer behind the code",
-      image: "/images/adrian.jpg",
+      image: "/images/figma.png",
       description: [
         "Hey! I’m Thuy (Twee) 👋, a Computer Science enjoying working with data (?) and interactive websites that actually work well.",
         "I specialize in SQL, Java, and React—and I love building _________.",
