@@ -106,7 +106,7 @@ const blogPosts = [
     id: 4,
     date: "In progress",
     title: "Pokemon System - SQL Queries",
-    image: "/images/pokemon-project.jpg",
+    image: "/images/pokemon-project.png",
     link: "https://github.com/thuymmai/Pokemon-System",
   },
 ];
@@ -254,7 +254,6 @@ const WORK_LOCATION = {
             "Most academic institutions use consolidated third-party software to track students, courses, and enrollments, which can be inconvenient and expensive to fix whenever the system is out of service.",
             "As an alternative, the purpose of the project is to build a customized record management system that caters to the needs of each academy while being maintained by employees at those institutions",
             "The program has three goals: (1) to build a create, read, update, and delete (CRUD) application for courses, students, and enrollments; (2) to utilize industry-standard development tools, such as the Spring framework; (3) and to deploy the program to a public cloud so it can be accessible outside the local machine.",
-            "Description.",
           ],
         },
         {
@@ -324,16 +323,16 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
+          imageUrl: "/images/hotel-database.png",
         },
         {
           id: 5,
           name: "Design.fig",
           icon: "images/plain.png",
           kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
+          fileType: "img",
           position: "top-60 left-5",
+          imageUrl: "/images/hotel-database-alter-table.png",
         },
       ],
     },
@@ -355,10 +354,9 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Description.",
-            "Description.",
-            "Description.",
-            "Description.",
+            "Diet tracker application built with Android Studio.",
+            "Features include calorie tracking, meal logging, and nutritional analysis.",
+            "Implemented with a clean and intuitive user interface.",
           ],
         },
         {
@@ -367,7 +365,7 @@ const WORK_LOCATION = {
           icon: "images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "",
+          href: "https://github.com/thuymmai/Diet-Tracker-App",
           position: "top-10 right-20",
         },
         {
@@ -377,7 +375,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
+          imageUrl: "/images/cat thinks.jpg",
         },
         {
           id: 5,
@@ -385,7 +383,7 @@ const WORK_LOCATION = {
           icon: "images/plain.png",
           kind: "file",
           fileType: "fig",
-          href: "https://google.com",
+          href: "https://github.com/thuymmai/Diet-Tracker-App",
           position: "top-60 right-20",
         },
       ],
@@ -408,10 +406,9 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Description.",
-            "Description.",
-            "Description.",
-            "Description.",
+            "A work in progress.SQL queries for the Pokemon system database.",
+            "Consists of Pokemon data Includes CREATE, INSERT, UPDATE, and DELETE statements.",
+            "Goal is to showcase proper normalization and indexing strategies and to demonstrate proficiency in SQL and database design.",
           ],
         },
         {
@@ -420,7 +417,7 @@ const WORK_LOCATION = {
           icon: "images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "",
+          href: "https://github.com/thuymmai/Pokemon-System",
           position: "top-10 right-20",
         },
         {
@@ -430,7 +427,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-4.png",
+          imageUrl: "/images/pokemon-project-2.png",
         },
         {
           id: 5,
@@ -531,7 +528,7 @@ const TRASH_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-10",
-      imageUrl: "/images/trash-1.png",
+      imageUrl: "/images/robot.jpg",
     },
     {
       id: 2,
@@ -540,7 +537,7 @@ const TRASH_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-40 left-80",
-      imageUrl: "/images/trash-2.png",
+      imageUrl: "/images/tired-spongebob.webp",
     },
   ],
 };
