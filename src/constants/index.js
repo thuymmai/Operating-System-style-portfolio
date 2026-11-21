@@ -86,14 +86,14 @@ const blogPosts = [
     date: "Aug 2026 - Nov 2026",
     title: "Student Management System Fullstack Website Using Spring Boot",
     image: "images/proj1.png",
-    link: "",
+    link: "https://studentmgt.com/login",
   },
   {
     id: 2,
     date: "May 2026",
     title: "Hotel Management System - Database Project",
     image: "images/proj_2.png",
-    link: "",
+    //link: "",
   },
   {
     id: 3,
