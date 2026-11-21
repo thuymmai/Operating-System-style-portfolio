@@ -83,28 +83,28 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "mm dd, yyyy",
+    date: "Aug 2026 - Nov 2026",
     title: "Student Management System Fullstack Website Using Spring Boot",
     image: "/images/blog1.png",
     link: "",
   },
   {
     id: 2,
-    date: "mm dd, yyyy",
+    date: "May 2026",
     title: "Hotel Management System - Database Project",
     image: "/images/blog2.png",
     link: "",
   },
   {
     id: 3,
-    date: "mm dd, yyyy",
+    date: "July 2026",
     title: "Diet Tracker Application - Android Studio",
     image: "/images/blog3.png",
     link: "https://github.com/thuymmai/Diet-Tracker-App",
   },
   {
     id: 4,
-    date: "mm dd, yyyy",
+    date: "In progress",
     title: "Pokemon System - SQL Queries",
     image: "/images/blog3.png",
     link: "https://github.com/thuymmai/Pokemon-System",
@@ -134,7 +134,7 @@ const techStack = [
   },
   {
     category: "Tools/Cloud",
-    items: ["TortoiseGit", "GitHub", "Docker", "AWS", "Postman"],
+    items: ["TortoiseGit", "GitHub", "AWS", "Postman"],
   },
 ];
 
@@ -305,9 +305,7 @@ const WORK_LOCATION = {
           position: "top-5 right-10",
           description: [
             "The project was a comprehensive hotel management system built with MySQL.",
-            "Goal was to normalize data in Third Normal Form.",
-            "Description.",
-            "Description.",
+            "The goal was to normalize data in Third Normal Form and maintain data integrity.",
           ],
         },
         {
@@ -492,10 +490,8 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the developer behind the code",
       image: "/images/figma.png",
       description: [
-        "Hey! I’m Thuy (Twee) 👋, a Computer Science enjoying working with data (?) and interactive websites that actually work well.",
-        "I specialize in SQL, Java, and React—and I love building _________.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me listening to music, sipping overpriced matcha, or impulse-buying keycap sets I absolutely convinced myself I needed 😅",
+        "Hey! I’m Thuy (Twee) 👋, a Computer Science student enjoying working with data and interactive websites.",
+        "Outside of dev work, you'll find me listening to music, sipping overpriced matcha, or impulse-buying keycap sets I think I needed 😅",
       ],
     },
   ],
