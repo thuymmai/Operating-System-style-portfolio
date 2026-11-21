@@ -246,7 +246,7 @@ const WORK_LOCATION = {
         {
           id: 1,
           name: "Student Management Project.txt",
-          icon: "images/login.png",
+          icon: "images/proj1.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
@@ -269,7 +269,7 @@ const WORK_LOCATION = {
         {
           id: 4,
           name: "login.png",
-          icon: "images/login.png",
+          icon: "images/proj1.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
